@@ -1,0 +1,48 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom,#EFC3CA, #FCA2B1);
+}
+
+h1 {
+  color: #d85ff6;
+  margin-bottom: 30px;
+}
+button#toggle-sound {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.menu {
+  display: grid;
+  gap: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.menu a {
+  display: block;
+  padding: 15px;
+  background-color: #F375D0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background-color:#E397F8
+}
+/* Canvas efecto flores */
+#efecto-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+}
